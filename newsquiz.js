@@ -70,8 +70,8 @@
                     },
                     create_element : function(slide) {
                         if (!slide[this.name]) {return '';}
-                        return jQuery('<h1 class="' + this.name + '">' 
-                            + slide[this.name] + '</h1>' 
+                        return jQuery('<h4 class="' + this.name + '">' 
+                            + slide[this.name] + '</h4>' 
                         );
                     } 
                 },
